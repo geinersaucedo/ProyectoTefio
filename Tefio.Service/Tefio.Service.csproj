@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.7.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tefio.Core.Constant\Tefio.Core.Constant.csproj" />
+    <ProjectReference Include="..\Tefio.Core.Utilitario\Tefio.Core.Utilitario.csproj" />
+    <ProjectReference Include="..\Tefio.Data\Tefio.Data.csproj" />
+    <ProjectReference Include="..\Tefio.Entity\Tefio.Entity.csproj" />
+  </ItemGroup>
+
+</Project>
